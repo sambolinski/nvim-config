@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/sambolinski/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cellular-automaton.nvim"] = {
+    loaded = true,
+    path = "/home/sambolinski/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
+    url = "https://github.com/eandrju/cellular-automaton.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/sambolinski/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -154,6 +159,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sambolinski/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/sambolinski/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
   },
   ["vim-fugitive"] = {
     loaded = true,
