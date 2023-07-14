@@ -1,1 +1,1 @@
-vim.keymap.set("n","<C-n>",":CHADopen<CR>")
+vim.keymap.set("n","<leader>me",":CHADopen<CR>")

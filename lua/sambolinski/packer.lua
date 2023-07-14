@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
 		requires = {{'nvim-lua/plenary.nvim'}}
 	}
 
+    -- Color Schemes
 	use({
 		'rose-pine/neovim',
 		as = 'rose-pine',
@@ -20,6 +21,8 @@ return require('packer').startup(function(use)
 			vim.cmd('colorscheme rose-pine')
 		end
 	})
+    use('sainnhe/everforest')
+
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
@@ -50,6 +53,8 @@ return require('packer').startup(function(use)
     use('vim-airline/vim-airline')    
     use('vim-airline/vim-airline-themes')    
     use("eandrju/cellular-automaton.nvim")
+    use('lukas-reineke/indent-blankline.nvim')
     use('fatih/vim-go')
+    use('ryanoasis/vim-devicons')
 end)
 
